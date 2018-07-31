@@ -20,6 +20,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="Hello"
+            android:onClick="buttonTapped"
             android:id="@+id/hello" />
 
         <Button
@@ -31,6 +32,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="How are you?"
+            android:onClick="buttonTapped"
             android:id="@+id/howareyou" />
 
         <Button
@@ -42,6 +44,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="Good Evening"
+            android:onClick="buttonTapped"
             android:id="@+id/goodevening"/>
 
         <Button
@@ -53,6 +56,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="Please"
+            android:onClick="buttonTapped"
             android:id="@+id/please"/>
 
         <Button
@@ -64,6 +68,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="My name is..."
+            android:onClick="buttonTapped"
             android:id="@+id/mynameis" />
 
         <Button
@@ -75,6 +80,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="Do you &#10;speak English?"
+            android:onClick="buttonTapped"
             android:id="@+id/doyouspeakenglish" />
 
         <Button
@@ -86,6 +92,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="Welcome"
+            android:onClick="buttonTapped"
             android:id="@+id/welcome"/>
 
         <Button
@@ -97,6 +104,7 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:text="I live in..."
+            android:onClick="buttonTapped"
             android:id="@+id/ilivein"/>
 
     </android.support.v7.widget.GridLayout>
