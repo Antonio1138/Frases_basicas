@@ -1,5 +1,6 @@
 package com.antonio.basicphrases;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,6 +20,13 @@ public class MainActivity extends AppCompatActivity {
         String ourId = "";
 
         ourId = view.getResources().getResourceEntryName(id);
+
+
+        int resourceId = getResources().getIdentifier(ourId, "raw", "com.antonio.basicphrases");
+
+
+        MediaPlayer mplayer = MediaPlayer.create(this, resourceId);
+        mplayer.start();
 
         Log.i("button tapped", ourId);
 
