@@ -5,7 +5,7 @@
   width="500" height="300"/>
 
 ## Descripción
-Aplicación que consta de una serie de botones con una frase en inglés y que al pulsar el correspondiente botón suena esa misma frase pero en francés.
+Aplicación que consta de una serie de botones con unas frases en inglés y que al pulsar el correspondiente botón suena esa misma frase pero en francés.
 
 ## Motivación
 La aplicación ha sido desarrollada para poner en práctica el manejo de archivos de audio y el Grid Layout en Android Studio.
@@ -16,7 +16,7 @@ La aplicación ha sido desarrollada para poner en práctica el manejo de archivo
 
 
 ## Ejemplos de Uso
->------
+Un buen caso para usar la aplicación sería cuando viajamos al extranjero. Es bastante fácil modificar y añadir en la app frases con sus respectivas locuciones en el idioma en que queremos comunicarnos.
 
 ## Pruebas
 >------
